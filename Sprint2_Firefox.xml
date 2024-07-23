@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browser" value="firefox"/>
+    <test  name="Related to Bank">
+        <classes>
+            <class name="testCases.TC02_ManagerBank">
+                <methods>
+                    <include name="clickOnBankManagerPage"/>
+                    <include name="addNewCustomer"/>
+                    <include name="clickOnOpenAccount"/>
+                    <include name="openNewAccount"/>
+                    <include name="clickOnCustomers"/>
+                    <include name="returnHome"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test  name="Relater to customer Login">
+    <classes>
+    <class name="testCases.TC01_CustomerLogin">
+        <methods>
+            <include name="LoginOnCustomerPage"/>
+            <include name="openCustomerPage"/>
+            <include name="getResultData"/>
+            <include name="addDeposit"/>
+            <include name="openWithDraw"/>
+            <include name="enterAmountOfWithDraw"/>
+            <include name="logOut"/>
+        </methods>
+    </class>
+    </classes>
+    </test>
+</suite>

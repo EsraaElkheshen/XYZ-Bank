@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="XYZ-Bank(failed)">
+    <classes>
+      <class name="testCases.TC01_CustomerLogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupDriver"/>
+          <include name="quit"/>
+          <include name="logOut"/>
+          <include name="enterAmountOfWithDraw"/>
+          <include name="getResult"/>
+          <include name="defineSuiteElements"/>
+        </methods>
+      </class> <!-- testCases.TC01_CustomerLogin -->
+    </classes>
+  </test> <!-- XYZ-Bank(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

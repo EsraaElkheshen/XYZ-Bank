@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-21T22:32:12 EET" name="All Test Suite" finished-at="2024-07-21T22:32:12 EET" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- All Test Suite -->
+  <suite started-at="2024-07-21T22:31:19 EET" name="All Test Suite (0)" finished-at="2024-07-21T22:31:35 EET" duration-ms="15329">
+    <groups>
+    </groups>
+    <test started-at="2024-07-21T22:31:19 EET" name="Related to Bank" finished-at="2024-07-21T22:31:27 EET" duration-ms="7877">
+      <class name="testCases.TC02_ManagerBank">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testCases.TC02_ManagerBank@2bcec6a6]" started-at="2024-07-21T22:31:19 EET" name="setupDriver" finished-at="2024-07-21T22:31:23 EET" duration-ms="3801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="clickOnBankManagerPage()[pri:1, instance:testCases.TC02_ManagerBank@2bcec6a6]" started-at="2024-07-21T22:31:23 EET" name="clickOnBankManagerPage" description="click on Bank Manager Page" finished-at="2024-07-21T22:31:24 EET" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBankManagerPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC02_ManagerBank@2bcec6a6]" started-at="2024-07-21T22:31:24 EET" name="getResult" finished-at="2024-07-21T22:31:24 EET" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnBankManagerPage status=SUCCESS method=TC02_ManagerBank.clickOnBankManagerPage()[pri:1, instance:testCases.TC02_ManagerBank@2bcec6a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="addNewCustomer()[pri:2, instance:testCases.TC02_ManagerBank@2bcec6a6]" started-at="2024-07-21T22:31:24 EET" name="addNewCustomer" description="add New Customer" finished-at="2024-07-21T22:31:25 EET" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC02_ManagerBank@2bcec6a6]" started-at="2024-07-21T22:31:25 EET" name="getResult" finished-at="2024-07-21T22:31:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewCustomer status=SUCCESS method=TC02_ManagerBank.addNewCustomer()[pri:2, instance:testCases.TC02_ManagerBank@2bcec6a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="clickOnOpenAccount()[pri:3, instance:testCases.TC02_ManagerBank@2bcec6a6]" started-at="2024-07-21T22:31:25 EET" name="clickOnOpenAccount" description="open Account " finished-at="2024-07-21T22:31:26 EET" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnOpenAccount -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC02_ManagerBank@2bcec6a6]" started-at="2024-07-21T22:31:26 EET" name="getResult" finished-at="2024-07-21T22:31:26 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnOpenAccount status=SUCCESS method=TC02_ManagerBank.clickOnOpenAccount()[pri:3, instance:testCases.TC02_ManagerBank@2bcec6a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="openNewAccount()[pri:4, instance:testCases.TC02_ManagerBank@2bcec6a6]" started-at="2024-07-21T22:31:26 EET" name="openNewAccount" description="open New Account " finished-at="2024-07-21T22:31:26 EET" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNewAccount -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC02_ManagerBank@2bcec6a6]" started-at="2024-07-21T22:31:26 EET" name="getResult" finished-at="2024-07-21T22:31:26 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openNewAccount status=SUCCESS method=TC02_ManagerBank.openNewAccount()[pri:4, instance:testCases.TC02_ManagerBank@2bcec6a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="clickOnCustomers()[pri:5, instance:testCases.TC02_ManagerBank@2bcec6a6]" started-at="2024-07-21T22:31:26 EET" name="clickOnCustomers" description="open Customers Page " finished-at="2024-07-21T22:31:27 EET" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCustomers -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC02_ManagerBank@2bcec6a6]" started-at="2024-07-21T22:31:27 EET" name="getResult" finished-at="2024-07-21T22:31:27 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnCustomers status=SUCCESS method=TC02_ManagerBank.clickOnCustomers()[pri:5, instance:testCases.TC02_ManagerBank@2bcec6a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="returnHome()[pri:6, instance:testCases.TC02_ManagerBank@2bcec6a6]" started-at="2024-07-21T22:31:27 EET" name="returnHome" description="return Home" finished-at="2024-07-21T22:31:27 EET" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnHome -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC02_ManagerBank@2bcec6a6]" started-at="2024-07-21T22:31:27 EET" name="getResult" finished-at="2024-07-21T22:31:27 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=returnHome status=SUCCESS method=TC02_ManagerBank.returnHome()[pri:6, instance:testCases.TC02_ManagerBank@2bcec6a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testCases.TC02_ManagerBank@2bcec6a6]" started-at="2024-07-21T22:31:27 EET" name="quit" finished-at="2024-07-21T22:31:27 EET" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testCases.TC02_ManagerBank -->
+    </test> <!-- Related to Bank -->
+    <test started-at="2024-07-21T22:31:27 EET" name="Relater to customer Login" finished-at="2024-07-21T22:31:35 EET" duration-ms="7324">
+      <class name="testCases.TC01_CustomerLogin">
+        <test-method is-config="true" signature="defineSuiteElements()[pri:0, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:19 EET" name="defineSuiteElements" finished-at="2024-07-21T22:31:19 EET" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuiteElements -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:27 EET" name="setupDriver" finished-at="2024-07-21T22:31:30 EET" duration-ms="2403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="LoginOnCustomerPage()[pri:1, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:30 EET" name="LoginOnCustomerPage" description="Login On Customer Page" finished-at="2024-07-21T22:31:32 EET" duration-ms="2375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginOnCustomerPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:32 EET" name="getResult" finished-at="2024-07-21T22:31:32 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginOnCustomerPage status=SUCCESS method=TC01_CustomerLogin.LoginOnCustomerPage()[pri:1, instance:testCases.TC01_CustomerLogin@1dbb650b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="openCustomerPage()[pri:2, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:32 EET" name="openCustomerPage" description="Open Customer Page" finished-at="2024-07-21T22:31:33 EET" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCustomerPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:33 EET" name="getResult" finished-at="2024-07-21T22:31:33 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openCustomerPage status=SUCCESS method=TC01_CustomerLogin.openCustomerPage()[pri:2, instance:testCases.TC01_CustomerLogin@1dbb650b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="getResultData()[pri:3, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:33 EET" name="getResultData" description="getResultDate" finished-at="2024-07-21T22:31:33 EET" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultData -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:33 EET" name="getResult" finished-at="2024-07-21T22:31:33 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getResultData status=SUCCESS method=TC01_CustomerLogin.getResultData()[pri:3, instance:testCases.TC01_CustomerLogin@1dbb650b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="addDeposit()[pri:4, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:33 EET" name="addDeposit" description="Add Deposit" finished-at="2024-07-21T22:31:33 EET" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDeposit -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:33 EET" name="getResult" finished-at="2024-07-21T22:31:33 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addDeposit status=SUCCESS method=TC01_CustomerLogin.addDeposit()[pri:4, instance:testCases.TC01_CustomerLogin@1dbb650b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="openWithDraw()[pri:5, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:33 EET" name="openWithDraw" description="Open WithDraw" finished-at="2024-07-21T22:31:34 EET" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWithDraw -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:34 EET" name="getResult" finished-at="2024-07-21T22:31:34 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openWithDraw status=SUCCESS method=TC01_CustomerLogin.openWithDraw()[pri:5, instance:testCases.TC01_CustomerLogin@1dbb650b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="enterAmountOfWithDraw()[pri:6, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:34 EET" name="enterAmountOfWithDraw" description="enter amount WithDraw" finished-at="2024-07-21T22:31:34 EET" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAmountOfWithDraw -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:34 EET" name="getResult" finished-at="2024-07-21T22:31:34 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterAmountOfWithDraw status=SUCCESS method=TC01_CustomerLogin.enterAmountOfWithDraw()[pri:6, instance:testCases.TC01_CustomerLogin@1dbb650b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="logOut()[pri:7, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:34 EET" name="logOut" description="Logout" finished-at="2024-07-21T22:31:34 EET" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:34 EET" name="getResult" finished-at="2024-07-21T22:31:34 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOut status=SUCCESS method=TC01_CustomerLogin.logOut()[pri:7, instance:testCases.TC01_CustomerLogin@1dbb650b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:34 EET" name="quit" finished-at="2024-07-21T22:31:35 EET" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_CustomerLogin@1dbb650b]" started-at="2024-07-21T22:31:35 EET" name="tearDown" finished-at="2024-07-21T22:31:36 EET" duration-ms="805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC01_CustomerLogin -->
+    </test> <!-- Relater to customer Login -->
+  </suite> <!-- All Test Suite (0) -->
+  <suite started-at="2024-07-21T22:31:36 EET" name="All Test Suite (1)" finished-at="2024-07-21T22:32:11 EET" duration-ms="34928">
+    <groups>
+    </groups>
+    <test started-at="2024-07-21T22:31:36 EET" name="Related to Bank" finished-at="2024-07-21T22:31:51 EET" duration-ms="15367">
+      <class name="testCases.TC02_ManagerBank">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testCases.TC02_ManagerBank@63ec445c]" started-at="2024-07-21T22:31:36 EET" name="setupDriver" finished-at="2024-07-21T22:31:44 EET" duration-ms="7915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="clickOnBankManagerPage()[pri:1, instance:testCases.TC02_ManagerBank@63ec445c]" started-at="2024-07-21T22:31:44 EET" name="clickOnBankManagerPage" description="click on Bank Manager Page" finished-at="2024-07-21T22:31:45 EET" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBankManagerPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC02_ManagerBank@63ec445c]" started-at="2024-07-21T22:31:45 EET" name="getResult" finished-at="2024-07-21T22:31:45 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnBankManagerPage status=SUCCESS method=TC02_ManagerBank.clickOnBankManagerPage()[pri:1, instance:testCases.TC02_ManagerBank@63ec445c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="addNewCustomer()[pri:2, instance:testCases.TC02_ManagerBank@63ec445c]" started-at="2024-07-21T22:31:45 EET" name="addNewCustomer" description="add New Customer" finished-at="2024-07-21T22:31:46 EET" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC02_ManagerBank@63ec445c]" started-at="2024-07-21T22:31:46 EET" name="getResult" finished-at="2024-07-21T22:31:46 EET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewCustomer status=SUCCESS method=TC02_ManagerBank.addNewCustomer()[pri:2, instance:testCases.TC02_ManagerBank@63ec445c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="clickOnOpenAccount()[pri:3, instance:testCases.TC02_ManagerBank@63ec445c]" started-at="2024-07-21T22:31:46 EET" name="clickOnOpenAccount" description="open Account " finished-at="2024-07-21T22:31:46 EET" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnOpenAccount -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC02_ManagerBank@63ec445c]" started-at="2024-07-21T22:31:46 EET" name="getResult" finished-at="2024-07-21T22:31:46 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnOpenAccount status=SUCCESS method=TC02_ManagerBank.clickOnOpenAccount()[pri:3, instance:testCases.TC02_ManagerBank@63ec445c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="openNewAccount()[pri:4, instance:testCases.TC02_ManagerBank@63ec445c]" started-at="2024-07-21T22:31:46 EET" name="openNewAccount" description="open New Account " finished-at="2024-07-21T22:31:47 EET" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNewAccount -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC02_ManagerBank@63ec445c]" started-at="2024-07-21T22:31:47 EET" name="getResult" finished-at="2024-07-21T22:31:47 EET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openNewAccount status=SUCCESS method=TC02_ManagerBank.openNewAccount()[pri:4, instance:testCases.TC02_ManagerBank@63ec445c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="clickOnCustomers()[pri:5, instance:testCases.TC02_ManagerBank@63ec445c]" started-at="2024-07-21T22:31:47 EET" name="clickOnCustomers" description="open Customers Page " finished-at="2024-07-21T22:31:47 EET" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCustomers -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC02_ManagerBank@63ec445c]" started-at="2024-07-21T22:31:47 EET" name="getResult" finished-at="2024-07-21T22:31:47 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnCustomers status=SUCCESS method=TC02_ManagerBank.clickOnCustomers()[pri:5, instance:testCases.TC02_ManagerBank@63ec445c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="returnHome()[pri:6, instance:testCases.TC02_ManagerBank@63ec445c]" started-at="2024-07-21T22:31:47 EET" name="returnHome" description="return Home" finished-at="2024-07-21T22:31:48 EET" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnHome -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC02_ManagerBank@63ec445c]" started-at="2024-07-21T22:31:48 EET" name="getResult" finished-at="2024-07-21T22:31:48 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=returnHome status=SUCCESS method=TC02_ManagerBank.returnHome()[pri:6, instance:testCases.TC02_ManagerBank@63ec445c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testCases.TC02_ManagerBank@63ec445c]" started-at="2024-07-21T22:31:48 EET" name="quit" finished-at="2024-07-21T22:31:51 EET" duration-ms="3438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testCases.TC02_ManagerBank -->
+    </test> <!-- Related to Bank -->
+    <test started-at="2024-07-21T22:31:51 EET" name="Relater to customer Login" finished-at="2024-07-21T22:32:11 EET" duration-ms="19229">
+      <class name="testCases.TC01_CustomerLogin">
+        <test-method is-config="true" signature="defineSuiteElements()[pri:0, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:31:36 EET" name="defineSuiteElements" finished-at="2024-07-21T22:31:36 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuiteElements -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:31:51 EET" name="setupDriver" finished-at="2024-07-21T22:32:02 EET" duration-ms="10173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="LoginOnCustomerPage()[pri:1, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:32:02 EET" name="LoginOnCustomerPage" description="Login On Customer Page" finished-at="2024-07-21T22:32:03 EET" duration-ms="1796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginOnCustomerPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:32:03 EET" name="getResult" finished-at="2024-07-21T22:32:03 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginOnCustomerPage status=SUCCESS method=TC01_CustomerLogin.LoginOnCustomerPage()[pri:1, instance:testCases.TC01_CustomerLogin@7a344b65] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="openCustomerPage()[pri:2, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:32:03 EET" name="openCustomerPage" description="Open Customer Page" finished-at="2024-07-21T22:32:05 EET" duration-ms="1528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCustomerPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:32:05 EET" name="getResult" finished-at="2024-07-21T22:32:05 EET" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openCustomerPage status=SUCCESS method=TC01_CustomerLogin.openCustomerPage()[pri:2, instance:testCases.TC01_CustomerLogin@7a344b65] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="getResultData()[pri:3, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:32:05 EET" name="getResultData" description="getResultDate" finished-at="2024-07-21T22:32:06 EET" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultData -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:32:06 EET" name="getResult" finished-at="2024-07-21T22:32:06 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getResultData status=SUCCESS method=TC01_CustomerLogin.getResultData()[pri:3, instance:testCases.TC01_CustomerLogin@7a344b65] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="addDeposit()[pri:4, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:32:06 EET" name="addDeposit" description="Add Deposit" finished-at="2024-07-21T22:32:06 EET" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDeposit -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:32:06 EET" name="getResult" finished-at="2024-07-21T22:32:06 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addDeposit status=SUCCESS method=TC01_CustomerLogin.addDeposit()[pri:4, instance:testCases.TC01_CustomerLogin@7a344b65] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="openWithDraw()[pri:5, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:32:06 EET" name="openWithDraw" description="Open WithDraw" finished-at="2024-07-21T22:32:07 EET" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWithDraw -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:32:07 EET" name="getResult" finished-at="2024-07-21T22:32:07 EET" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openWithDraw status=SUCCESS method=TC01_CustomerLogin.openWithDraw()[pri:5, instance:testCases.TC01_CustomerLogin@7a344b65] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="enterAmountOfWithDraw()[pri:6, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:32:07 EET" name="enterAmountOfWithDraw" description="enter amount WithDraw" finished-at="2024-07-21T22:32:07 EET" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAmountOfWithDraw -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:32:07 EET" name="getResult" finished-at="2024-07-21T22:32:07 EET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterAmountOfWithDraw status=SUCCESS method=TC01_CustomerLogin.enterAmountOfWithDraw()[pri:6, instance:testCases.TC01_CustomerLogin@7a344b65] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="logOut()[pri:7, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:32:07 EET" name="logOut" description="Logout" finished-at="2024-07-21T22:32:07 EET" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:32:07 EET" name="getResult" finished-at="2024-07-21T22:32:07 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOut status=SUCCESS method=TC01_CustomerLogin.logOut()[pri:7, instance:testCases.TC01_CustomerLogin@7a344b65] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:32:07 EET" name="quit" finished-at="2024-07-21T22:32:11 EET" duration-ms="3088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_CustomerLogin@7a344b65]" started-at="2024-07-21T22:32:11 EET" name="tearDown" finished-at="2024-07-21T22:32:11 EET" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC01_CustomerLogin -->
+    </test> <!-- Relater to customer Login -->
+  </suite> <!-- All Test Suite (1) -->
+</testng-results>
